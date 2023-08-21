@@ -1,0 +1,222 @@
+.head {
+  background-color: #252525;
+  /* background-color: rgba(0, 0, 0, 0.9); */
+  min-height: 100vh;
+  padding-top: 6% !important;
+  padding: 10%;
+}
+
+.fontFamily {
+  font-family: 'poppins';
+  font-style: normal;
+}
+
+.headerStyle {
+  font-size: 36px;
+  font-weight: 900;
+  color: #ffffff;
+  width: 80%;
+}
+
+.display {
+  display: flex;
+}
+
+.navigateButton {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.buttonStyle {
+  font-size: 12px !important;
+  font-family: 'poppins';
+  font-weight: 600 !important;
+  min-width: 10% !important;
+  color: #ffffff !important;
+}
+
+.quote {
+  margin-top: 10%;
+}
+
+.quoteStyle {
+  font-family: gilroy-bold;
+  font-size: 48px;
+  color: #1DB954;
+  font-weight: bolder;
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  line-height: 80px;
+  letter-spacing: 1px;
+}
+
+.tagline {
+  margin-top: 3% !important;
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+  letter-spacing: 1px;
+
+}
+
+.section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section2 {
+  margin-top: 3%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.containerMain {
+  margin-top: 5%;
+}
+
+.container {
+  background: linear-gradient(rgb(176, 35, 194) 10%, rgb(96, 11, 231));
+  width: 310px !important;
+  border: 1px solid black;
+  margin: 10px;
+  height: auto !important;
+  border-radius: 30px 0px 30px 0px;
+  padding: 20px;
+  font-family: 'poppins';
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.container2 {
+  background: linear-gradient(rgb(176, 35, 194) 10%, rgb(96, 11, 231));
+  width: 310px !important;
+  border: 1px solid black;
+  margin: 10px;
+  height: auto !important;
+  border-radius: 30px 0px 30px 0px;
+  padding: 20px;
+  font-family: 'poppins';
+  font-size: 16px;
+  font-weight: 900;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  border-radius: 0px 30px;
+}
+
+.diagnostic {
+  background-color: rgb(238, 47, 76);
+  height: auto !important;
+  padding: 10%;
+}
+
+.mentalHealth {
+  background-color: rgb(26, 97, 233);
+  height: auto !important;
+  padding-top: 5% !important;
+  padding-right: 5% !important;
+  padding: 10%;
+
+}
+
+#top2 {
+  height: 5px;
+}
+
+.image1 {
+  margin-left: 4% !important;
+  margin-top: 20px !important;
+}
+
+.mentalQuote {
+  margin-top: 80px;
+  width: 65%;
+  font-family: gilroy-bold;
+  font-size: 48px;
+  color: #fff;
+  font-weight: bolder;
+  text-align: center;
+  letter-spacing: 0px;
+}
+
+.buttonStyle2 {
+  background-color: #ffffff !important;
+  width: 35% !important;
+  color: black !important;
+  font-family: gilroy-bold !important;
+  font-style: normal !important;
+  font-size: 24px !important;
+  font-weight: 900 !important;
+  letter-spacing: 0.4px !important;
+  line-height: 30px !important;
+  border-radius: 40px !important;
+  cursor: pointer !important;
+  text-align: center;
+  margin-top: 5% !important;
+}
+
+.image2 {
+  width: 300px !important;
+  height: 300px !important;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+.color a{
+  color: #ffffff !important;
+}
+
+.imageInfo {
+  margin-top: 10px;
+  text-align: center !important;
+  font-family: 'poppins';
+  font-size: 20px;
+  line-height: 28px;
+  color: white;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: rgba(0, 0, 0, 0.9);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
